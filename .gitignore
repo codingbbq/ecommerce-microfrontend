@@ -1,0 +1,11 @@
+
+# dependencies
+container/node_modules
+products/node_modules
+
+# local env files
+.env
+.env*.local
+
+# Production
+products/dist
