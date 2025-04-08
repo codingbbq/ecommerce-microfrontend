@@ -22,3 +22,10 @@
 3) `cart` is another MFE that shows the cart details. It is hosted on port 8082
 4) `container` being the host is is hosted on port 8080 and it calls the entire .js code from individual MFEs as remoteEntry.js
 5) Important code to look at is `webpack.config.js` of each individual MFEs
+
+- Go to each MFE folder
+- `npm install` to install all dependences in each MFE
+- `npm run start` in each MFE folder to run its individual MFE
+- `http://localhost:8080` is for Host / Container and it calls both Products and Cart MFE
+- `http://localhost:8081` is for products MFE
+- `http://localhost:8082` is for cart MFE
