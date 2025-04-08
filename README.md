@@ -15,3 +15,10 @@
 3) Container notices that both require Faker
 4) Container can choose to load only one copy from either Cart of Products
 5) Single Copy is made available to both Cart + Products
+
+## How to Run the application
+1) `container` is the folder that is the host that contains all MFEs
+2) `produts` is one MFE that shows list of products. It is hosted on port 8081
+3) `cart` is another MFE that shows the cart details. It is hosted on port 8082
+4) `container` being the host is is hosted on port 8080 and it calls the entire .js code from individual MFEs as remoteEntry.js
+5) Important code to look at is `webpack.config.js` of each individual MFEs
